@@ -9,44 +9,47 @@
   
   <header>
     <div 
-      class="
-        h-[300px] 
-        sm:h-[404px]
+    class="
+    h-[300px] 
+    sm:h-[404px]
 
-        mb-24
-        
-        flex
-        justify-center
-        
-        bg-gray-200"
-      >
+    mb-24
+    
+    flex
+    justify-center
+    
+    bg-gray-200"
+    >
       <img 
-        class="
-          h-[336px]
-          sm:h-[420px]
-          w-[336px]
-          sm:w-[420px]
-          
-          mt-14
-          
-          border-solid
-          border-8
-          border-white
-          rounded-full"
-        src="./image/66287053.jpeg" 
-        alt="imagem do perfil "
+      class="
+      h-[336px]
+      sm:h-[420px]
+      w-[336px]
+      sm:w-[420px]
+      
+      mt-14
+      
+      border-solid
+      border-8
+      border-white
+      rounded-full"
+      src="./image/perfil.jpeg" 
+      alt="imagem do perfil "
       >
     </div>
     <section 
-      class="flex justify-center"
-      >
+    class="
+    min-w-[428px]
+    flex 
+    justify-center"
+    >
       <div class="mx-14 max-w-[575px]">
         <h2 
-          class="
-            uppercase
-            text-3xl 
-            sm:text-5xl
-            text-center"
+        class="
+        uppercase
+        text-3xl 
+        sm:text-5xl
+        text-center"
         >    
             <strong>Portifólio</strong> criativo
         </h2>
@@ -55,11 +58,73 @@
         </p>
       </div>      
     </section>
-    <section>
-        <!-- Aqui faze a parte de eu sou designer -->
-    </section>
   </header>
-  <main>
+
+  <main>    
+    <section
+    class="
+    mt-16
+    pb-8
+    sm:flex
+    sm:justify-center
+    bg-gradient-to-t from-gray-200"
+    >        
+      <div class="max-w-[476px] m-8">
+        <h2 
+        class="
+        my-8
+        text-3xl 
+        sm:text-4xl
+        text-center"
+        >
+          eu sou <strong>programador</strong>
+        </h2>
+        <img src="./image/sou-programador-1.jpg" alt="imagem tela computador">
+      </div>
+
+      <div class="max-w-[476px] m-8">
+        <img src="./image/sou-programador-2.jpg" alt="imagem progamando">
+        <button 
+        id="botao-messagem"
+        type="button" 
+        class="
+        w-full
+        flex
+        justify-center
+        text-gray-900 
+        hover:text-white 
+        border-2
+        border-gray-800 
+        hover:bg-gray-900 
+        focus:ring-4 
+        focus:outline-none 
+        focus:ring-gray-300 
+        text-sm 
+        font-bold
+        px-5 
+        py-2.5 
+        text-center 
+        mt-8
+        mr-2  
+        dark:border-gray-600 
+        dark:text-gray-400 
+        dark:hover:text-white 
+        dark:hover:bg-gray-600 
+        dark:focus:ring-gray-800"
+        >
+          Entre em contato 
+          <img 
+          class="ml-2"
+          src="./icons/mail.svg"
+          alt="icone de enviar mensagem"
+          >
+        </button>
+      </div>
+    </section>
+  
+    <div class="h-96">
+
+    </div>
 
 
   </main>
@@ -67,6 +132,23 @@
   <footer>
 
   </footer>
+    
+
+  
+
+  <script>
+    const botao = document.getElementById("botao-messagem");
+    botao.onclick = enviarMensagem;
+
+    function enviarMensagem() { 
+      botao.blur();
+      console.log('Clicou em Mim');
+      const numCelular = 5518991609780;      
+      const url = `https://api.whatsapp.com/send?phone=${numCelular}&text=`
+      window.open(url)
+    }
+    
+  </script>
 
 </body>
 </html>

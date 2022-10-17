@@ -1265,6 +1265,22 @@ input:checked + .toggle-bg {
   min-width: 428px;
 }
 
+.min-w-\[412px\] {
+  min-width: 412px;
+}
+
+.min-w-\[px\] {
+  min-width: px;
+}
+
+.min-w-\[375px\] {
+  min-width: 375px;
+}
+
+.min-w-\[368px\] {
+  min-width: 368px;
+}
+
 .max-w-\[575px\] {
   max-width: 575px;
 }
@@ -1846,10 +1862,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:h-\[404px\] {
     height: 404px;
   }

@@ -4,6 +4,9 @@ module.exports = {
     "./public/index.html",
     "./node_modules/flowbite/**/*.js"
   ],
+  fontFamily: {
+    'body': 'Roboto, sans-serif',
+  },
   theme: {
     extend: {},
   },

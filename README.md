@@ -2,6 +2,8 @@
 <h4 align="justify">Projeto desenvolvido especialmente para o curso ministrado no dia 25 de outubro de 2022, na 34º Ed. da IFOESTE/FIPP (2022) para os alunos das ETECS sob o nome "Desenvolvimento Web para Iniciantes e utilização de frameworks CSS", visando além de passar os conceitos iniciais do desenvolvimento web, apresentar frameworks CSS, utilização do TailWindsCss e como auxilia no desenvolvimento web.</h4>
 <h4>Link do site do evento: https://www.unoeste.br/semanas/2022/34infoeste/FIPPTEC </h4>
 
+<h2 align="center"><a href="https://portifolio-infoeste.vercel.app">Clique aqui para ver meu projeto!</a></h2>
+
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>

@@ -15,7 +15,7 @@
 - JavaScript </br>
 - Tailwind CSS </br>
 - Com JavaScript foi criado um script que ao clicar no botão de entrar em contato o usuário é redirecionado para o aplicativo do whatsapp web ou mobile, a depender de onde está acessando a página.
-- Foi utilizado a estilização inline que é o padrão trazido na documentação do tailwind, todavia, essa forma é criticada por deixar o código sujo, então, foi demonstrado como criar classes que aplicaram estilos css com tailwind. No caso criamos a classe 'default-overlay' que aplica estilo nos itens do grid que apresenta os projetos, deixamos um de exemplo para demonstrar como ficaria caso não criasse uma classe:
+- Foi utilizado a estilização inline que é o padrão trazido na documentação do tailwind, todavia, essa forma é criticada por deixar o código sujo, então, foi demonstrado como criar classes que aplicaram estilos css com tailwind. No caso criamos a classe 'default-overlay' que aplica estilo nos itens do grid que apresenta os projetos, deixamos um de exemplo para demonstrar como ficaria:
 <div><img style="width:75vh;" src="https://raw.githubusercontent.com/IrineuAlmeidaJr/portifolio-infoeste/main/tailwind-css.png?token=GHSAT0AAAAAABWFW5RKCNTAIHGR3DDMDMZIY2X2PFQ" /></div>
 
 
